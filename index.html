@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="icons8-camera-100.png" />
+    <script defer src="script.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Image Generator</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="container">
+          <div id="header">
+            <h2>
+              <i class="fa-solid fa-camera" style="color: orange"></i>Unsplash
+              API Demo
+            </h2>
+            <div id="search-box">
+              <input id="user-input" type="text" placeholder="Search..." /><i
+                onclick="loadImg()"
+                class="fa-solid fa-magnifying-glass"
+              ></i>
+            </div>
+          </div>
+        </div>
+      </header>
+      <section>
+        <div class="container">
+          <div id="grid"></div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
